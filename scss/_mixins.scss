@@ -1,0 +1,39 @@
+@mixin pink__button() {
+  padding: 10px 50px;
+  background-color: $pink__color;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-family: "popins";
+}
+
+@mixin top__button() {
+  margin-top: 30px;
+  margin-right: 30px;
+  padding: 10px 50px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  box-shadow: 5px 1px 13px 3px #000000;
+  font-family: "Open Sans";
+}
+
+@mixin wrapper() {
+  width: 1600px;
+  margin: 0 auto;
+}
+@mixin h1_content_style() {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Poppins";
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+@mixin secon_p_content() {
+  width: 50%;
+  line-height: 25px;
+  opacity: 0.6;
+  margin-top: 30px;
+  margin-left: 100px;
+}

@@ -1,0 +1,64 @@
+.wrapper {
+  position: relative;
+  width: 1600px;
+  margin: 0 auto;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__top__button {
+  @include top__button();
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 16px 8px #000000;
+  }
+}
+.header__column__button {
+  @include pink__button();
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 16px 8px #000000;
+  }
+}
+
+.header__bottom {
+  display: flex;
+}
+.header__wrapper {
+  background-image: url(/images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $header_background__color;
+  .header__top__huddle {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+}
+.header__p__column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  .header__column__firstp {
+    font-size: 40px;
+    font-family: "Poppins";
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  .header__column__secondp {
+    width: 70%;
+    margin-left: 30px;
+    line-height: 25px;
+  }
+}
+.header__column__button {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.devices {
+  margin-top: 30px;
+  margin-right: 100px;
+  width: 90%;
+  height: 90%;
+}

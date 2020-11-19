@@ -1,2 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&family=Poppins:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+.wrapper {
+  position: relative;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__top__button {
+  margin-top: 30px;
+  margin-right: 30px;
+  padding: 10px 50px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  box-shadow: 5px 1px 13px 3px #000000;
+  font-family: "Open Sans";
+}
+.header__top__button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 16px 8px #000000;
+}
+
+.header__column__button {
+  padding: 10px 50px;
+  background-color: #ff52bf;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-family: "popins";
+}
+.header__column__button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 16px 8px #000000;
+}
+
+.header__bottom {
+  display: flex;
+}
+
+.header__wrapper {
+  background-image: url(/images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #7ac3ee;
+}
+.header__wrapper .header__top__huddle {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.header__p__column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.header__p__column .header__column__firstp {
+  font-size: 40px;
+  font-family: "Poppins";
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.header__p__column .header__column__secondp {
+  width: 70%;
+  margin-left: 30px;
+  line-height: 25px;
+}
+
+.header__column__button {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.devices {
+  margin-top: 30px;
+  margin-right: 100px;
+  width: 90%;
+  height: 90%;
+}
+
+.main__content {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.main__wrapper__column {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border: 3px solid rgba(128, 141, 153, 0.1);
+}
+
+.twoppl__pic {
+  width: 500px;
+  height: 400px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.generate_second_p {
+  width: 50%;
+  line-height: 25px;
+  opacity: 0.6;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.grow__together1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Poppins";
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.grow__together2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Poppins";
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.grow__together3 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Poppins";
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.twoppl__pic5 {
+  width: 500px;
+  height: 400px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.grow__together8 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Poppins";
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+.generate_second_p8 {
+  width: 50%;
+  line-height: 25px;
+  opacity: 0.6;
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+.middle__box {
+  position: absolute;
+  left: 32%;
+  bottom: 10%;
+  background-color: white;
+  margin: 0 auto;
+  height: 300px;
+  width: 600px;
+  box-shadow: 0px 0px 16px 8px #000000;
+  border-radius: 30px;
+}
+
+.ready__to__build {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "poppins";
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pinky {
+  padding: 10px 50px;
+  background-color: #ff52bf;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-family: "popins";
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.pinky:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 16px 8px #000000;
+}
+
+.footer__wrap {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.footer__wrap {
+  background-color: #00252e;
+  margin-top: 300px;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  height: 400px;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  height: 100px;
+  padding-left: 90px;
+  padding-top: 100px;
+  color: white;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.footer__nav .footer__box1 {
+  width: 30%;
+  color: white;
+  opacity: 0.8;
+}
+.footer__nav .footer__p {
+  margin-top: 20px;
+  color: white;
+  opacity: 0.8;
+}
+
+.footer__icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  opacity: 0.8;
+}
+
+.fa-instagram {
+  margin-right: 20px;
+}
+
+.fa-facebook {
+  margin-left: 20px;
+}
 /*# sourceMappingURL=main.css.map */
